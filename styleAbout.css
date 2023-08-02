@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Poppins';
+    color: #e2504c;
+    text-align: justify;
+    cursor: default;
+    padding-left: 4%;
+    font-size: 99%;
+}
+
+#brain{
+    width: 27%;
+    height: 27%;
+    float: right;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+#brain:hover {
+    transform: rotate(10deg);
+    transition: 1s ease;
+}
+
+p {
+    margin-top: 3%;
+    line-height: 205%;
+}
+
+.about span{
+    font-weight: bolder;
+}
+
+h1{
+    padding-top: 1%;
+}

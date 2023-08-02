@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    font-family: 'Poppins';
+    color: #ff8243;
+    text-align: justify;
+    cursor: default;
+    padding-left: 4%;
+}
+
+#findMe{
+    padding-left: 15%;
+    padding-top: 7%;
+}
+
+#cnt-form {
+    width: 30%;
+    height: 30%;
+    float: right;
+    padding-top: 7%;
+    padding-right: 2%;
+    cursor: pointer;
+}
+#cnt-form:hover {
+    transform: rotate(-10deg);
+    transition: 1s ease;
+}
+
+input, textarea{
+    font-family: 'Poppins';
+    width: 50%;
+    padding: 5px;
+    margin: 8px ;
+    box-sizing: border-box;
+}
+
+#send {
+    background-color: #ff8243;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#title {
+    font-size: 150%;
+}
